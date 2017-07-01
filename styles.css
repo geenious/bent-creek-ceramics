@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F2F1E8;
+}
+
+
+
+/*******************************
+  NAV BAR
+*******************************/
+
+nav {
+  box-shadow: 0 3px 6px black;
+  z-index: 1;
+  position: fixed;
+  width: inherit;
+  background-color: #fff;
+}
+
+.logo {
+  height: 40px;
+  position: absolute;
+  left: 0;
+  margin: 10px 15px;
+}
+
+ul {
+  text-align: center;
+  padding: 8px 0;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+
+li a {
+  color: #2B2F26;
+}
+
+li a:hover {
+  color: #CD5D67;
+}
+
+a.active {
+  color: #968772;
+}
+
+
+
+/*******************************
+  MAIN
+*******************************/
+
+main {
+/*  background-color: #F2F1E8;*/
+  width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+/*  margin-top: 10px;*/
+}
+
+header {
+  text-align: center;
+  color: #131511;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4em;
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery > div {
+  background-size: cover;
+  margin: 1%;
+}
+
+.gallery p {
+  color: #FFF;
+  background-color: #2B2F26;
+  line-height: 1.5em;
+}
+
+.endless-possibilities {
+  background-image: url(optimized/product-1.jpg);
+  height: 300px;
+  flex-basis: 58%;
+  position: relative;
+}
+
+.endless-possibilities p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.sets {
+  background-image: url(optimized/product-2.jpg);
+  height: 300px;
+  flex-basis: 18%;
+  position: relative;
+}
+
+.sets p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.textures {
+  background-image: url(optimized/product-3.jpg);
+  height: 300px;
+  flex-basis: 18%;
+  position: relative;
+}
+
+.textures p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.tea-time {
+  background-image: url(optimized/product-4.jpg);
+  height: 150px;
+  flex-basis: 18%;
+  position: relative;
+}
+
+.tea-time p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.jars-and-containers {
+  background-image: url(optimized/product-5.jpg);
+  height: 150px;
+  flex-basis: 18%;
+  position: relative;
+}
+
+.jars-and-containers p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.wasabi-and-saki {
+  background-image: url(optimized/product-6.jpg);
+  height: 150px;
+  flex-basis: 38%;
+  position: relative;
+}
+
+.wasabi-and-saki p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+.sippin-on-sunshine {
+  background-image: url(optimized/product-7.jpg);
+  height: 150px;
+  flex-basis: 18%;
+  position: relative;
+}
+
+.sippin-on-sunshine p {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+}
+
+
+
+/*******************************
+  FOOTER
+*******************************/
+
+footer {
+  background-color: #2B2F26;
+  color: #FFF;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+}
