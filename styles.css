@@ -66,6 +66,7 @@ a.active {
 main {
   width: 960px;
   margin: 0 auto;
+  height: 100%;
 }
 
 header {
@@ -149,7 +150,7 @@ h2 {
 
 .tea-time {
   background-image: url(optimized/product-4.jpg);
-  height: 150px;
+  height: 200px;
   flex-basis: 18%;
   position: relative;
 }
@@ -163,7 +164,7 @@ h2 {
 
 .jars-and-containers {
   background-image: url(optimized/product-5.jpg);
-  height: 150px;
+  height: 200px;
   flex-basis: 18%;
   position: relative;
 }
@@ -177,7 +178,7 @@ h2 {
 
 .wasabi-and-saki {
   background-image: url(optimized/product-6.jpg);
-  height: 150px;
+  height: 200px;
   flex-basis: 38%;
   position: relative;
 }
@@ -191,7 +192,7 @@ h2 {
 
 .sippin-on-sunshine {
   background-image: url(optimized/product-7.jpg);
-  height: 150px;
+  height: 200px;
   flex-basis: 18%;
   position: relative;
 }
@@ -322,6 +323,61 @@ td {
 /*******************************
   NEWSLETTER
 *******************************/
+
+.newsletter {
+  background-image: url(optimized/background-2.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2B2F26;
+}
+
+form {
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px 20px;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+form h3 {
+  margin: 15px 0;
+}
+
+input {
+  border-style: none;
+  border-bottom: 2px solid #968772;
+  line-height: 1.5em;
+  flex-basis: 100%;
+  font-size: 1.5em;
+}
+
+input:focus {
+  border-style: none;
+  border-bottom: 2px solid #967343;
+}
+
+button {
+  border-style: none;
+  background-color: #968772;
+  margin: 20px auto;
+  padding: 15px 30px;
+  color: #F2F1E8;
+  font-size: 1.5em;
+}
+
+button:hover {
+  background-color: #967343;
+  color: #fff;
+}
 
 
 
