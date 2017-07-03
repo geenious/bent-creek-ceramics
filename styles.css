@@ -77,8 +77,8 @@ header {
 
 h1.top {
   font-size: 4em;
-  margin-top: 100px;
   font-family: 'Merriweather', serif;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -317,6 +317,12 @@ td {
 .orange {
   background-color: #ffF1E8;
 }
+
+
+
+/*******************************
+  NEWSLETTER
+*******************************/
 
 
 
