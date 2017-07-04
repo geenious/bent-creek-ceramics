@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -359,6 +364,9 @@ input {
   line-height: 1.5em;
   flex-basis: 100%;
   font-size: 1.5em;
+  transition-property: border-bottom;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 
 input:focus {
