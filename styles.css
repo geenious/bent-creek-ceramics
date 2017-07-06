@@ -72,9 +72,8 @@ a.active {
 *******************************/
 
 main {
-  width: 960px;
+  width: 95%;
   margin: 0 auto;
-  height: 100%;
 }
 
 header {
@@ -119,7 +118,7 @@ h2 {
 
 .endless-possibilities {
   background-image: url(optimized/product-1.jpg);
-  height: 300px;
+  height: 400px;
   flex-basis: 58%;
   position: relative;
 }
@@ -132,7 +131,7 @@ h2 {
 
 .sets {
   background-image: url(optimized/product-2.jpg);
-  height: 300px;
+  height: 400px;
   flex-basis: 18%;
   position: relative;
 }
@@ -145,7 +144,7 @@ h2 {
 
 .textures {
   background-image: url(optimized/product-3.jpg);
-  height: 300px;
+  height: 400px;
   flex-basis: 18%;
   position: relative;
 }
@@ -158,7 +157,7 @@ h2 {
 
 .tea-time {
   background-image: url(optimized/product-4.jpg);
-  height: 200px;
+  height: 250px;
   flex-basis: 18%;
   position: relative;
 }
@@ -171,7 +170,7 @@ h2 {
 
 .jars-and-containers {
   background-image: url(optimized/product-5.jpg);
-  height: 200px;
+  height: 250px;
   flex-basis: 18%;
   position: relative;
 }
@@ -184,7 +183,7 @@ h2 {
 
 .wasabi-and-saki {
   background-image: url(optimized/product-6.jpg);
-  height: 200px;
+  height: 250px;
   flex-basis: 38%;
   position: relative;
 }
@@ -197,7 +196,7 @@ h2 {
 
 .sippin-on-sunshine {
   background-image: url(optimized/product-7.jpg);
-  height: 200px;
+  height: 250px;
   flex-basis: 18%;
   position: relative;
 }
@@ -218,6 +217,7 @@ h2 {
 /*  line-height: 1.5em;*/
   display: flex;
   flex-wrap: wrap;
+  width: 960px;
 }
 
 .about h1 {
@@ -295,7 +295,7 @@ aside {
 }
 
 aside img {
- width: 240px; 
+ width: 240px;
 }
 
 aside p {
