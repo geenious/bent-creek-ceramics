@@ -1,4 +1,4 @@
 #Week One Project
  - HTML
  - CSS
-Created from mock-up
+ - Created from mockup
